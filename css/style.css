@@ -1,0 +1,95 @@
+body {
+    background: #444;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+input {
+    font-family: Courier, "Lucida Console", monospace;
+}
+
+main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 320px;
+}
+
+.app svg {
+    width: 100%;
+    border: 1px solid #777;
+}
+
+.app input {
+    text-align: center;
+}
+
+.cor-atual {
+    width: 100%;
+    font-size: 1.2em;
+    padding: .2rem;
+    margin: .2rem 0;
+}
+
+.spinner {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: .2rem;
+    color: white;
+    font-weight: 600;
+    border-radius: .2em;
+    margin-bottom: .2rem;
+    width: 100%;
+}
+
+.spinner input[type=range] {
+    cursor: pointer;
+}
+
+.red {
+    background: linear-gradient(to right, black, red);
+}
+
+.green {
+    background: linear-gradient(to right, black, green);
+}
+
+.blue {
+    background: linear-gradient(to right, black, blue);
+}
+
+.luz {
+    background: linear-gradient(to right, black, white);
+    color: black;
+}
+
+.simulador {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #777;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.simulador svg {
+    width: 100%;
+    border: 1px solid #777;
+}
+
+.cor-simulador {
+    text-align: center;
+}
+
+.cor-simulador p {
+    margin: .4rem;
+}
