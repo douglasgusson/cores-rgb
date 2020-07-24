@@ -29,6 +29,12 @@ main {
     border: 1px solid #777;
 }
 
+.app code {
+    color: #fff;
+    font-size: 1.2em;
+    padding: .4rem 0;
+}
+
 .app input {
     text-align: center;
 }

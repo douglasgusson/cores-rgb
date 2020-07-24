@@ -12,10 +12,11 @@
     <main>
 
         <div class="app" id="app">
+            <code>rgb({{ red }}, {{ green }}, {{ blue }})</code>
             <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <rect :fill="cor" width="100" height="100" />
             </svg>
-            <input class="cor-atual" type="text" v-model="cor">
+            <input class="cor-atual" type="text" maxlength="7" v-model="cor">
             <div class="spinner red">
                 <span>R</span>
                 <input type="range" v-model="red" step="1" min="0" max="255" :label="red">
